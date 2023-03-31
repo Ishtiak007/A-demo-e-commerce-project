@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce demo project">
+    <title>Ecommerce demo project</title>
+
+
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar starts here -->
+    <nav>
+       <ul class="nav-upper flex-space-around">
+        <li class="nav_list">
+            <a href="index.html" class="nav_link">Home</a>
+        </li>
+        <li class="nav_list">
+            <a href="register.html" class="nav_link">Register</a>
+        </li>
+        <li class="nav_list">
+            <a href="login.html" class="nav_link">log-In</a>
+        </li>
+        <li class="nav_list">
+            <a href="index.html" class="nav_link">Log-Out</a>
+        </li>
+        <li class="nav_list">
+            <a href="contact.html" class="nav_link">Contact</a>
+        </li>
+        
+        <li class="nav_list">
+            <a href="profile.html" class="nav_link"><img class="profile-icon" src="profile1.jpg" alt="profile1">
+            </a>
+        </li>
+       </ul> 
+       <ul class="nav-lower flex-space-around">
+        <li class="nav_list"><a href="index.html" class="nav_brand nav_link">Ishtiak Express</a>
+        </li>
+        <li class="nav_list"><a href="card.html" class="nav_link">
+            <span><i class="fa-solid fa-card-shopping fa-1.7x"></i></span>
+            Card 2 products - $189.22
+        </a>
+        </li>
+       </ul>
+    </nav>
+    <!-- navbar ends here -->
+
+
+    <main>
+        <div class="card flex-center">
+            <div class="cart_items">
+                <div class="card_items-heading">
+                    <h2>Shopping cart[5 items]</h2>
+                    <div class="cart_items-action">
+                        <label for="select">
+                            <input type="checkbox" name="select" id="select">
+                            Select All items
+                        </label>
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <button class="btn">Shope More</button>
+                    </div>
+                </div>
+
+                <div class="cart_item card flex-space-around">
+                    <input type="checkbox" >
+                    <img src="laptop2.jpg" alt="laptop2" class="card_item-img">
+                <!-- </div> -->
+                <div class="card_item-description">
+                    <h3 class="product_name">Laptop2</h3>
+                    <h4 class="product_price">Price:$344.34</h4>
+                    <p class="cart_item-shipping">Free Shipping</p>
+                </div>
+                <div class="card_item-actions">
+                    <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                    <div>
+                        <button class="btn"><i class="fas fa-add"></i></button>
+                        <span>3</span>
+                        <button class="btn"><i class="fas fa-minus"></i></button>
+                    </div>
+                </div>
+                </div>
+                <div class="cart_item card flex-space-around">
+                    <input type="checkbox" >
+                    <img src="laptop3.jpg" alt="laptop3" class="card_item-img">
+                <div class="card_item-description">
+                    <h3 class="product_name">Laptop3</h3>
+                    <h4 class="product_price">Price:$844.34</h4>
+                    <p class="cart_item-shipping">Shipping Cost $50</p>
+                </div>
+                <div class="card_item-actions">
+                    <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                    <div>
+                        <button class="btn"><i class="fas fa-add"></i></button>
+                        <span>2</span>
+                        <button class="btn"><i class="fas fa-minus"></i></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="cart_payment">
+                <div class="cart_payment-summary card">
+                    <h2>Payment Summary</h2>
+                    <div>
+                        <p>Shipping cost:</p>
+                        <p>$12.98</p>
+                    </div>
+                    <div>
+                        <p>Total cost:</p>
+                        <p>$24.98</p>
+                    </div>
+                    <button class="btn cart_payment-btn">Pay now</button>
+                </div>
+                <div class="card_payment-methods card">
+                    <h2>Payment methods</h2>
+                    <div>
+                        <i class="fa-brands fa-cc-visa fa-3x"></i>
+                        <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                        <i class="fa-brands fa-cc-max fa-3x"></i>
+                        <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+                        <i class="fa-brands fa-cc-paypal fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- footer starts here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; copyright 2023 Ishtiak Express</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+</body>
+</html>

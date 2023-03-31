@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce demo project">
+    <title>Ecommerce demo project</title>
+
+
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar starts here -->
+    <nav>
+       <ul class="nav-upper flex-space-around">
+        <li class="nav_list">
+            <a href="index.html" class="nav_link">Home</a>
+        </li>
+        <li class="nav_list">
+            <a href="register.html" class="nav_link">Register</a>
+        </li>
+        <li class="nav_list">
+            <a href="login.html" class="nav_link">log-In</a>
+        </li>
+        <li class="nav_list">
+            <a href="index.html" class="nav_link">Log-Out</a>
+        </li>
+        <li class="nav_list">
+            <a href="contact.html" class="nav_link">Contact</a>
+        </li>
+        
+        <li class="nav_list">
+            <a href="profile.html" class="nav_link"><img class="profile-icon" src="profile1.jpg" alt="profile1">
+            </a>
+        </li>
+       </ul> 
+       <ul class="nav-lower flex-space-around">
+        <li class="nav_list"><a href="index.html" class="nav_brand nav_link">Ishtiak Express</a>
+        </li>
+        <li class="nav_list"><a href="card.html" class="nav_link">
+            <span><i class="fa-solid fa-card-shopping fa-1.7x"></i></span>
+            Card 2 products - $189.22
+        </a>
+        </li>
+       </ul>
+    </nav>
+    <!-- navbar ends here -->
+
+
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product_details-left">
+                    <img src="laptop2.jpg" alt="laptop2">
+                </div>
+                <div class="product_details-right">
+                    <h3 class="product_name">Asus Brand Laptop</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product_description">
+                        <strong>Description</strong>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perferendis velit dolorem tempore eos quos temporibus impedit. Aspernatur vero minima animi delectus nihil? 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perferendis velit dolorem tempore eos quos temporibus impedit. Aspernatur vero minima animi delectus nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perferendis velit dolorem tempore eos quos temporibus impedit. Aspernatur vero minima animi delectus nihil? 
+                    </p>
+                    <p class="product_description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perferendis velit dolorem tempore eos quos temporibus impedit. Aspernatur vero minima animi delectus nihil? 
+                    </p>
+                    <h4 class="product_category">$Category: HEadphone</h4>
+                    <p class="product_rating">Rating: 5/5</p>
+                    <button class="btn product_btn">Add to cart</button>
+                    <button class="btn product_btn">Back to shopping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- footer starts here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; copyright 2023 Ishtiak Express</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce demo project">
+    <title>Ecommerce demo project</title>
+
+
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar starts here -->
+    <nav>
+       <ul class="nav-upper flex-space-around">
+        <li class="nav_list">
+            <a href="index.html" class="nav_link">Home</a>
+        </li>
+        <li class="nav_list">
+            <a href="register.html" class="nav_link">Register</a>
+        </li>
+        <li class="nav_list">
+            <a href="login.html" class="nav_link">log-In</a>
+        </li>
+        <li class="nav_list">
+            <a href="index.html" class="nav_link">Log-Out</a>
+        </li>
+        <li class="nav_list">
+            <a href="contact.html" class="nav_link">Contact</a>
+        </li>
+        
+        <li class="nav_list">
+            <a href="profile.html" class="nav_link"><img class="profile-icon" src="profile1.jpg" alt="profile1">
+            </a>
+        </li>
+       </ul> 
+       <ul class="nav-lower flex-space-around">
+        <li class="nav_list"><a href="index.html" class="nav_brand nav_link">Ishtiak Express</a>
+        </li>
+        <li class="nav_list"><a href="card.html" class="nav_link">
+            <span><i class="fa-solid fa-card-shopping fa-1.7x"></i></span>
+            Card 2 products - $189.22
+        </a>
+        </li>
+       </ul>
+    </nav>
+    <!-- navbar ends here -->
+
+    <main>
+        <section class="contact-section">
+
+            <h2 class="section-title text-center">Contact to me</h2>
+        <div class="contact-container flex-center">
+            <form action="" class="form card">
+                <div class="form-control flex-center">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required autocomplete="name">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required autocomplete="email">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="message">Message </label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="form-control flex-center form-btn-field">
+                   <button class="btn contact-btn" type="submit">Submit</button>
+                </div>
+            </form>
+            <div class="contact-address flex-space-around">
+                <address>
+                    <h4>Adress:</h4>
+                    <p>ulipur,kurigram</p>
+                    <br>
+                    <span>call:</span>
+                    <a href="tel:01737223990">01737223990</a>
+                </address>
+                <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57498.03557880513!2d89.2620455!3d25.74983845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e32de6fca6019b%3A0x9fa496e687f818c8!2sRangpur!5e0!3m2!1sen!2sbd!4v1680295975112!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        </section>
+        
+    </main>
+
+
+
+
+    <!-- footer starts here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; copyright 2023 Ishtiak Express</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+</body>
+</html>
